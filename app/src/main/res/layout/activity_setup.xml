@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".play_screen.SetupActivity">
+
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="4dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_margin="8dp"
+            android:background="#AD1457"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="PLAY"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:theme="@style/CustomizedButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
